@@ -24,12 +24,16 @@
     border-radius: 6px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 /* Main Style */
 header{
-    background-color: #FFF8F3;
+    /* background-color: #FFF8F3; */
     padding-top: 50px;
+    background: url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 nav{
     width:74%;
@@ -48,4 +52,33 @@ nav .menu a{
     font-size: 20px;
     text-decoration: none;
     color: #474747;
+}
+
+#banner{
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content{
+    max-width: 585px;
+}
+.banner_content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner_content h1{
+    font-size: 85px;
+    font-weight: 900;
+}
+.banner_content p{
+    color: #757575;
+    margin: 20px 0;
+    line-height: 30px;
+}
+#banner .banner_image img{
+    width: 585px;
+    vertical-align: middle;
 }
