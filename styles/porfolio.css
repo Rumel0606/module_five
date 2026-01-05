@@ -26,6 +26,20 @@
     font-weight: 600;
     cursor: pointer;
 }
+.about_heading{
+    width:827px;
+    color: #181818;
+    text-align: center;
+    margin: 0 auto;
+}
+.about_heading h2{
+    font-size: 35px;
+}
+.about_heading p {
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0;
+}
 
 /* Main Style */
 header{
@@ -33,7 +47,7 @@ header{
     padding-top: 50px;
     background: url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 5% 8% , bottom right;
 }
 nav{
     width:74%;
@@ -81,4 +95,59 @@ nav .menu a{
 #banner .banner_image img{
     width: 585px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about_container{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 157px;
+    border-radius: 6px;
+}
+#about .about_info{
+    display: flex;
+    justify-content:space-around ;
+}
+.about_info p {
+     font-size: 18px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+#skills{
+   padding-top: 130px;
+}
+.skills_container{
+     width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.skil_box{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding-top: 30px;
+}
+.skil_card{
+    max-width:267px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.236);
+    border-radius: 6px;
+}
+.skil_card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skil_card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.skil_card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
